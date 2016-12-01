@@ -37,6 +37,7 @@
     CGRect frame =  CGRectInset(self.view.bounds, 44, 44);
     
     // 1
+    // 2
     
     UIBarButtonItem *rightItem = [UIBarButtonItem lf_barButtonItemWithTitle:@"完成"
                                                                        font:[UIFont systemFontOfSize:16.f]
