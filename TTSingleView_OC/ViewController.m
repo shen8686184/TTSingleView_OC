@@ -15,16 +15,10 @@
 
 @interface ViewController ()
 
-// 11111
-
-// ssssssss
-// kkkkkkkk
 
 @end
 
 @implementation ViewController {
-
-    // wwwwwwwwww
 
 }
 
