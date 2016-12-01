@@ -16,7 +16,11 @@
 @interface ViewController ()
 
 // 1
+<<<<<<< HEAD
 // 2
+=======
+// 4
+>>>>>>> TTSingleView_OC/develop
 
 @end
 
