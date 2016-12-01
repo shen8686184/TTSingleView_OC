@@ -26,7 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // 33333333
+    
     CGRect frame =  CGRectInset(self.view.bounds, 44, 44);
     
     UIBarButtonItem *rightItem = [UIBarButtonItem lf_barButtonItemWithTitle:@"完成"
