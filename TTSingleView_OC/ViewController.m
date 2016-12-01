@@ -12,12 +12,11 @@
 #import "GlobalSetting.h"
 
 
-// 高能测试
-// 111111
-// 222222
-// 3333333
 
 @interface ViewController ()
+
+// 1111111
+// 2222222
 
 
 @end
@@ -29,7 +28,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-
+    // 111111
+    // 222222
+    // 333333
     
     
     CGRect frame =  CGRectInset(self.view.bounds, 44, 44);
