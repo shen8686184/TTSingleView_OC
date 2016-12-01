@@ -15,8 +15,7 @@
 
 @interface ViewController ()
 
-// 1111111
-// 2222222
+
 
 
 @end
@@ -27,17 +26,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // 111111
-    // 222222
-    // 333333
-    
     
     CGRect frame =  CGRectInset(self.view.bounds, 44, 44);
-    
-    // 1
-    // 2
-    // 3
     
     UIBarButtonItem *rightItem = [UIBarButtonItem lf_barButtonItemWithTitle:@"完成"
                                                                        font:[UIFont systemFontOfSize:16.f]
