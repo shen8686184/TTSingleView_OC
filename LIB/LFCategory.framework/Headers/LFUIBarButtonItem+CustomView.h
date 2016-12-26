@@ -12,7 +12,7 @@
  * 自定义item 用于统一定制导航栏左右item
  */
 @interface UIBarButtonItem (LFCustomView)
-
+// 里格楞
 
 /**
  * 添加回调事件
@@ -53,6 +53,17 @@ typedef NS_ENUM(NSInteger, LFCustomItemPosition) {
                                     target:(id)target
                                     action:(SEL)selector
                                   position:(LFCustomItemPosition)position;
+
+// 只设置image
++ (instancetype )lf_BarButtonItemWithImage:(UIImage *)image
+                          heightLightImage:(UIImage *)hlImage
+                                    margin:(CGFloat)margin//title距离左边或右边屏幕距离（作为左item时候title距离屏幕左边距为0；右item时 距距离屏幕右边距为0）
+                                 darkAlpha:(CGFloat)alpha//按钮高亮时刻的变暗效果
+                                 tintColor:(UIColor *)tintColor//UITabBartem效果 选中后非透明部分显示tint颜色
+                                    target:(id)target
+                                    action:(SEL)selector
+                                  position:(LFCustomItemPosition)position;
+
 
 // 只设置image
 + (instancetype )lf_BarButtonItemWithImage:(UIImage *)image

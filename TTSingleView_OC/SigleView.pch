@@ -1,0 +1,38 @@
+//
+//  SigleView.pch
+//  TTSingleView_OC
+//
+//  Created by 郭立源 on 2016/12/26.
+//  Copyright © 2016年 郭立源. All rights reserved.
+//
+
+
+
+#ifndef SigleView_pch
+#define SigleView_pch
+
+
+#ifdef __OBJC__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wnullability-completeness"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <LFCategory/LFCategory.h>
+
+#import "AppDelegate.h"
+//支付宝 appScheme
+#define KAilAppScheme   @"LFAirplay"
+//微信
+#define KLFWeChatAPPKey  @"wxdd9743fced943fb2"
+#define KLFWeChatLoginAPPKey @"wx0e50c000619a7362"
+#define KLFWeChatAppSecret @"cd1f9bb8ba1f157b2df5b51e3bdece01"
+//Adhoc
+
+#pragma clang diagnostic pop
+#endif
+
+#endif /* SigleView_pch */
+
+
+
+
