@@ -1,6 +1,0 @@
-framework module LFCategory {
-  umbrella header "LFCategory.h"
-
-  export *
-  module * { export * }
-}

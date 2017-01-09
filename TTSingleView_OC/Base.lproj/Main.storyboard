@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cdb-bN-u3E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cdb-bN-u3E">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,23 +22,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z51-Pe-U2H">
-                                <rect key="frame" x="138" y="241" width="108" height="45"/>
+                                <rect key="frame" x="120" y="251" width="135" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.28289333890000001" green="1" blue="0.34267186129999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="是电风扇的" image="mine_title_more@3x.png"/>
+                                <state key="normal" title="打"/>
                                 <connections>
                                     <action selector="broke:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IM8-7A-LW4"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.97985512018203735" green="0.2969449534795563" blue="0.34053341066466497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="4tw-cA-dtO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-103.2" y="-620.23988005997012"/>
+            <point key="canvasLocation" x="-151.19999999999999" y="-578.86056971514245"/>
         </scene>
         <!--My Navigation Controller-->
         <scene sceneID="7eq-Ck-LRt">
@@ -91,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ilQ-Wc-U0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="148" y="292"/>
+            <point key="canvasLocation" x="-151" y="421"/>
         </scene>
         <!--Master-->
         <scene sceneID="Odo-bD-6c8">
@@ -120,7 +118,4 @@
             <point key="canvasLocation" x="-957" y="421"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="mine_title_more@3x.png" width="16" height="16"/>
-    </resources>
 </document>
