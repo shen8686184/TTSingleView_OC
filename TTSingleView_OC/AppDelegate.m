@@ -22,7 +22,7 @@
     //bbbbbbb
     //ddddddd
     //eeeeeee
-    
+    //fffffff
 //    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 //    
 //    UIViewController *vc = [ViewController new];
