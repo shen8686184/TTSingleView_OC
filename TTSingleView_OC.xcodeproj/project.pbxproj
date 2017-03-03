@@ -20,6 +20,8 @@
 		815552E91D3F6B940083BCC8 /* TTSingleView_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 815552E81D3F6B940083BCC8 /* TTSingleView_OCUITests.m */; };
 		8197749B1DDB24BE00DBA550 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8197749A1DDB24BE00DBA550 /* PushViewController.m */; };
 		8197749E1DDB28FA00DBA550 /* Push1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8197749D1DDB28FA00DBA550 /* Push1ViewController.m */; };
+		81A403F51E5D651B0020408E /* navbar_arrow_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A403F31E5D651B0020408E /* navbar_arrow_back@2x.png */; };
+		81A403F61E5D651B0020408E /* navbar_arrow_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A403F41E5D651B0020408E /* navbar_arrow_back@3x.png */; };
 		81CDCA551DB8947E0032EC1C /* LFUIBarButtonItem+CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CDCA521DB8947E0032EC1C /* LFUIBarButtonItem+CustomView.m */; };
 		81CDCA781DB8E9510032EC1C /* LFUIColor+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CDCA771DB8E9510032EC1C /* LFUIColor+Add.m */; };
 		81CDCA7B1DB8E9930032EC1C /* LFNSString+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CDCA7A1DB8E9930032EC1C /* LFNSString+Add.m */; };
@@ -78,6 +80,8 @@
 		8197749A1DDB24BE00DBA550 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 		8197749C1DDB28FA00DBA550 /* Push1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Push1ViewController.h; sourceTree = "<group>"; };
 		8197749D1DDB28FA00DBA550 /* Push1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Push1ViewController.m; sourceTree = "<group>"; };
+		81A403F31E5D651B0020408E /* navbar_arrow_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_arrow_back@2x.png"; sourceTree = "<group>"; };
+		81A403F41E5D651B0020408E /* navbar_arrow_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_arrow_back@3x.png"; sourceTree = "<group>"; };
 		81CDCA511DB8947E0032EC1C /* LFUIBarButtonItem+CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LFUIBarButtonItem+CustomView.h"; sourceTree = "<group>"; };
 		81CDCA521DB8947E0032EC1C /* LFUIBarButtonItem+CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LFUIBarButtonItem+CustomView.m"; sourceTree = "<group>"; };
 		81CDCA761DB8E9510032EC1C /* LFUIColor+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LFUIColor+Add.h"; sourceTree = "<group>"; };
@@ -174,6 +178,8 @@
 				810D2B731DE0303700EA7E34 /* GlobalSetting.h */,
 				810D2B741DE0303700EA7E34 /* GlobalSetting.m */,
 				815552C91D3F6B940083BCC8 /* Main.storyboard */,
+				81A403F31E5D651B0020408E /* navbar_arrow_back@2x.png */,
+				81A403F41E5D651B0020408E /* navbar_arrow_back@3x.png */,
 				815552CF1D3F6B940083BCC8 /* Assets.xcassets */,
 				815552D11D3F6B940083BCC8 /* LaunchScreen.storyboard */,
 				815552D41D3F6B940083BCC8 /* Info.plist */,
@@ -342,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81CDCA8A1DB8F4BA0032EC1C /* xuweiyidai@2x.png in Resources */,
+				81A403F61E5D651B0020408E /* navbar_arrow_back@3x.png in Resources */,
 				81CDCA7F1DB8EE750032EC1C /* pubulishDynamic@2x.png in Resources */,
 				81CDCA861DB8F2C60032EC1C /* activity_signed@2x.png in Resources */,
 				81CDCA801DB8EE750032EC1C /* pubulishDynamic@3x.png in Resources */,
@@ -350,6 +357,7 @@
 				815552D01D3F6B940083BCC8 /* Assets.xcassets in Resources */,
 				815552CB1D3F6B940083BCC8 /* Main.storyboard in Resources */,
 				81CDCA8B1DB8F4BA0032EC1C /* xuweiyidai@3x.png in Resources */,
+				81A403F51E5D651B0020408E /* navbar_arrow_back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

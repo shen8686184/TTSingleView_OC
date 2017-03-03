@@ -18,10 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-<<<<<<< HEAD
-=======
-    // 3333333
->>>>>>> 8c685de5a872ed946916a8b6ddfb77e5e9486408
+
 //    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 //    
 //    UIViewController *vc = [ViewController new];

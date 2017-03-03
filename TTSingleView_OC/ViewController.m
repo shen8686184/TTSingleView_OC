@@ -62,6 +62,9 @@
     
     [self.view addSubview:_actorView];
     
+//    UIBarButtonItem *lItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"navbar_arrow_back"] style:UIBarButtonItemStylePlain target:self action:@selector(lalalla)];
+//    self.navigationItem.leftBarButtonItem = lItem;
+    
 }
 
 - (void)addBtnClick {
@@ -82,7 +85,20 @@
 //     [GlobalSetting shareInstance].pushVc = vc;
     [self presentViewController:[[UINavigationController alloc] initWithRootViewController:vc] animated:YES completion:nil];
 //    [self.navigationController pushViewController:vc animated:YES];
+    
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(lalala) name:@"123" object:vc];
    
+}
+
+- (void)lalala
+{
+
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"123" object:nil];
 }
 
 

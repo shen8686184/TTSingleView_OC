@@ -43,15 +43,17 @@
 
 - (void)pushto {
 
-    Push1ViewController *vc = [Push1ViewController new];
-//    [self presentViewController:vc animated:YES completion:nil];
-    [self.navigationController pushViewController:vc animated:YES];
-    vc.dismissed = ^ {
+//    Push1ViewController *vc = [Push1ViewController new];
+////    [self presentViewController:vc animated:YES completion:nil];
+//    [self.navigationController pushViewController:vc animated:YES];
+//    vc.dismissed = ^ {
+//    
+//        [self dismissViewControllerAnimated:YES completion:^{
+//            
+//        }];
+//    };
     
-        [self dismissViewControllerAnimated:YES completion:^{
-            
-        }];
-    };
+
 }
 
 - (void)miss {
@@ -59,7 +61,7 @@
     [self dismissViewControllerAnimated:YES completion:^{
         [self.presentingViewController presentViewController:[Push1ViewController new] animated:YES completion:nil];
     }];
-    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"123" object:@"aaa" userInfo:nil];
         
 }
 
