@@ -28,6 +28,17 @@
 //    self.window.rootViewController = vc;
 //    self.window.backgroundColor = [UIColor whiteColor];
 //    [self.window makeKeyAndVisible];
+    
+    NSArray *aaa ;
+    id dd = aaa[0];
+    NSInteger iii = -1;
+    
+    if (-3) {
+        NSString *bb;
+        
+    } else {
+        NSString *dd;
+    }
 
     return YES;
 }

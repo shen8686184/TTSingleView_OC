@@ -8,9 +8,11 @@
 
 #import "PushViewController.h"
 #import "Push1ViewController.h"
-
+#import "InPushView.h"
 
 @interface PushViewController ()
+
+@property (nonatomic, strong) UIButton *button;
 
 @end
 
@@ -21,14 +23,22 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
     
-    UIGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(miss)];
-    [self.view addGestureRecognizer:gesture];
+   // UIGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(miss)];
+    //[self.view addGestureRecognizer:gesture];
+    
+    
+    InPushView *bV = [[InPushView alloc] initWithFrame:CGRectMake(40, 100, 80, 80)];
+    bV.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:bV];
+    
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.backgroundColor = [UIColor blueColor];
-    btn.frame = CGRectMake(100, 100, 50, 40);
+    btn.frame = CGRectMake(10, 10, 10, 10);
     [btn addTarget:self action:@selector(pushto) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
+//    [self.view addSubview:btn];
+    _button = btn;
+    [bV addSubview:btn];
     
 }
 
@@ -43,26 +53,17 @@
 
 - (void)pushto {
 
-//    Push1ViewController *vc = [Push1ViewController new];
-////    [self presentViewController:vc animated:YES completion:nil];
-//    [self.navigationController pushViewController:vc animated:YES];
-//    vc.dismissed = ^ {
-//    
-//        [self dismissViewControllerAnimated:YES completion:^{
-//            
-//        }];
-//    };
-    
-
+    if (_button.frame.size.width == 10) {
+                _button.frame = CGRectMake(10, 10, 15, 15);
+            } else {
+                _button.frame = CGRectMake(10, 10, 10, 10);
+            }
 }
 
 - (void)miss {
     
-    [self dismissViewControllerAnimated:YES completion:^{
-        [self.presentingViewController presentViewController:[Push1ViewController new] animated:YES completion:nil];
-    }];
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"123" object:@"aaa" userInfo:nil];
-        
+
+    
 }
 
 

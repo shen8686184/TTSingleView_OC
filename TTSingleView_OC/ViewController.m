@@ -19,13 +19,20 @@
 @end
 
 @implementation ViewController {
-
+    
+    NSString *_latitude;
+    NSString *_longitude;
 }
 
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    _latitude = @"11111";
+    
+    BOOL have =  [@"http://v.laifeng.com/login/init/m" hasPrefix:@"http://v.laifeng.com/login/init/m"];
+    
+    _longitude = _latitude ? :@"22222";
     
     CGRect frame =  CGRectInset(self.view.bounds, 44, 44);
     
@@ -65,6 +72,8 @@
 //    UIBarButtonItem *lItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"navbar_arrow_back"] style:UIBarButtonItemStylePlain target:self action:@selector(lalalla)];
 //    self.navigationItem.leftBarButtonItem = lItem;
     
+    self.navigationController.navigationBar.barTintColor = [UIColor yellowColor];
+    
 }
 
 - (void)addBtnClick {
@@ -72,6 +81,11 @@
     
 }
 - (IBAction)broke:(id)sender {
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://baidu.com"] options:@{} completionHandler:^(BOOL success) {
+        
+    }];
+    
     
     UIViewController *vc = [PushViewController new];
     
@@ -81,9 +95,9 @@
 //    
 //    }] ;
     
-//    [self.navigationController pushViewController:vc animated:YES];
+    [self.navigationController pushViewController:vc animated:YES];
 //     [GlobalSetting shareInstance].pushVc = vc;
-    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:vc] animated:YES completion:nil];
+//    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:vc] animated:YES completion:nil];
 //    [self.navigationController pushViewController:vc animated:YES];
     
     

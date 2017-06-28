@@ -33,6 +33,8 @@
 		81CDCA8B1DB8F4BA0032EC1C /* xuweiyidai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81CDCA891DB8F4BA0032EC1C /* xuweiyidai@3x.png */; };
 		81CDCA8F1DBA117C0032EC1C /* LFUIControl+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CDCA8E1DBA117C0032EC1C /* LFUIControl+Add.m */; };
 		81CDCAAC1DBD1A1F0032EC1C /* UIImage+gray.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CDCAAB1DBD1A1F0032EC1C /* UIImage+gray.m */; };
+		81ED46BC1EC493B00082334D /* InPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED46BB1EC493B00082334D /* InPushView.m */; };
+		C207AEEFF017489B45999E41 /* Pods_TTSingleView_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71266401ECF80C0B9706340D /* Pods_TTSingleView_OC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E634D2AA66DF9C766AA2FAE /* Pods-TTSingleView_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSingleView_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTSingleView_OC/Pods-TTSingleView_OC.release.xcconfig"; sourceTree = "<group>"; };
+		71266401ECF80C0B9706340D /* Pods_TTSingleView_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTSingleView_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7B6C7963B45D4CC462379F /* Pods-TTSingleView_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSingleView_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTSingleView_OC/Pods-TTSingleView_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		810D2B731DE0303700EA7E34 /* GlobalSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalSetting.h; sourceTree = "<group>"; };
 		810D2B741DE0303700EA7E34 /* GlobalSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalSetting.m; sourceTree = "<group>"; };
 		813635901DD34F8000A90CFF /* libYouTuURLProtect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYouTuURLProtect.a; sourceTree = "<group>"; };
@@ -99,6 +104,8 @@
 		81CDCA8E1DBA117C0032EC1C /* LFUIControl+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LFUIControl+Add.m"; sourceTree = "<group>"; };
 		81CDCAAA1DBD1A1F0032EC1C /* UIImage+gray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+gray.h"; sourceTree = "<group>"; };
 		81CDCAAB1DBD1A1F0032EC1C /* UIImage+gray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+gray.m"; sourceTree = "<group>"; };
+		81ED46BA1EC493B00082334D /* InPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InPushView.h; sourceTree = "<group>"; };
+		81ED46BB1EC493B00082334D /* InPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InPushView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +114,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				813635931DD34F8000A90CFF /* libYouTuURLProtect.a in Frameworks */,
+				C207AEEFF017489B45999E41 /* Pods_TTSingleView_OC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +135,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42DC6822D5B850BD2445DE7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B7B6C7963B45D4CC462379F /* Pods-TTSingleView_OC.debug.xcconfig */,
+				4E634D2AA66DF9C766AA2FAE /* Pods-TTSingleView_OC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8136358F1DD34F8000A90CFF /* YouTuURLProtect */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				813635971DD3509F00A90CFF /* LFForm.framework */,
+				71266401ECF80C0B9706340D /* Pods_TTSingleView_OC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +173,7 @@
 				815552E71D3F6B940083BCC8 /* TTSingleView_OCUITests */,
 				815552BE1D3F6B940083BCC8 /* Products */,
 				813635961DD3509F00A90CFF /* Frameworks */,
+				42DC6822D5B850BD2445DE7D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -239,6 +258,8 @@
 				8197749A1DDB24BE00DBA550 /* PushViewController.m */,
 				8197749C1DDB28FA00DBA550 /* Push1ViewController.h */,
 				8197749D1DDB28FA00DBA550 /* Push1ViewController.m */,
+				81ED46BA1EC493B00082334D /* InPushView.h */,
+				81ED46BB1EC493B00082334D /* InPushView.m */,
 			);
 			path = BarBtnItem;
 			sourceTree = "<group>";
@@ -250,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 815552ED1D3F6B940083BCC8 /* Build configuration list for PBXNativeTarget "TTSingleView_OC" */;
 			buildPhases = (
+				4650056DC0EC58C171E68F60 /* [CP] Check Pods Manifest.lock */,
 				815552B91D3F6B940083BCC8 /* Sources */,
 				815552BA1D3F6B940083BCC8 /* Frameworks */,
 				815552BB1D3F6B940083BCC8 /* Resources */,
+				B2C931FA23D9D451519FF785 /* [CP] Embed Pods Frameworks */,
+				A24270968F2FB1D8365D011F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,7 +334,7 @@
 				TargetAttributes = {
 					815552BC1D3F6B940083BCC8 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = G497YX6CBT;
+						DevelopmentTeam = QD8E5795PL;
 					};
 					815552D81D3F6B940083BCC8 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -377,6 +401,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4650056DC0EC58C171E68F60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A24270968F2FB1D8365D011F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTSingleView_OC/Pods-TTSingleView_OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2C931FA23D9D451519FF785 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTSingleView_OC/Pods-TTSingleView_OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		815552B91D3F6B940083BCC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -384,6 +456,7 @@
 			files = (
 				810D2B751DE0303700EA7E34 /* GlobalSetting.m in Sources */,
 				81CDCA781DB8E9510032EC1C /* LFUIColor+Add.m in Sources */,
+				81ED46BC1EC493B00082334D /* InPushView.m in Sources */,
 				81CDCA8F1DBA117C0032EC1C /* LFUIControl+Add.m in Sources */,
 				81CDCA7B1DB8E9930032EC1C /* LFNSString+Add.m in Sources */,
 				815552C81D3F6B940083BCC8 /* ViewController.m in Sources */,
@@ -534,9 +607,10 @@
 		};
 		815552EE1D3F6B940083BCC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7B6C7963B45D4CC462379F /* Pods-TTSingleView_OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G497YX6CBT;
+				DEVELOPMENT_TEAM = QD8E5795PL;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				HEADER_SEARCH_PATHS = "";
@@ -548,7 +622,7 @@
 					"$(PROJECT_DIR)/YouTuURLProtect",
 				);
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.guoliyuan.TTSingleView-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guoliyuan.TTSingleView-OCDD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
@@ -556,9 +630,10 @@
 		};
 		815552EF1D3F6B940083BCC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E634D2AA66DF9C766AA2FAE /* Pods-TTSingleView_OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G497YX6CBT;
+				DEVELOPMENT_TEAM = QD8E5795PL;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				HEADER_SEARCH_PATHS = "";
@@ -570,7 +645,7 @@
 					"$(PROJECT_DIR)/YouTuURLProtect",
 				);
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.guoliyuan.TTSingleView-OC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guoliyuan.TTSingleView-OCDD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
