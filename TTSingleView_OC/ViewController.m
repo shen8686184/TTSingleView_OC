@@ -22,6 +22,7 @@
     
     NSString *_latitude;
     NSString *_longitude;
+    // sssssss
 }
 
 
