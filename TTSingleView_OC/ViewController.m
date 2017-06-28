@@ -31,7 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    _latitude = @"11111";
-    
+    // aaaaaa
     BOOL have =  [@"http://v.laifeng.com/login/init/m" hasPrefix:@"http://v.laifeng.com/login/init/m"];
     
     _longitude = _latitude ? :@"22222";
